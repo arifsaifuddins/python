@@ -9,7 +9,6 @@ from time import time
 import camelcase
 
 # import file module
-import validator
 from validator import validate_email
 
 today = datetime.date.today()
