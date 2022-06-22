@@ -37,3 +37,18 @@ person2.clear()
 print(person)
 print(person1)
 print(person2)
+
+# list of dicts
+persons = [
+    {
+        'name': 'arief',
+        'age': '22'
+    },
+    {
+        'name': 'ahmad',
+        'age': '33'
+    }
+]
+
+
+print(persons[1]['age'])
